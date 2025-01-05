@@ -1,0 +1,9 @@
+.k1{
+    background-color: whitesmoke;
+    width: 220vh; height: 50vh; padding: 20px;
+
+}
+.k1 .link a
+{
+    color: red;
+}

@@ -1,0 +1,22 @@
+body{background: orange;}
+div{width:100vw;
+height: 10vh;
+background: blue;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+#kutu2{background: yellow;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+color: blueviolet;
+font-variant: all-small-caps ;
+font-style: italic;
+
+text-decoration: underline;
+text-decoration: overline;
+text-decoration: overline underline;
+text-align: center;
+font-size: 2vw;
+
+}

@@ -1,0 +1,46 @@
+.header
+{
+    background-color: gold;
+    color: white;
+    text-align: center;
+    padding: 3vh 0;
+}
+.header img{width: 200px;}
+.header h3
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-shadow: rgba(0.0.0.1)2px,2px,3px;
+}
+.link
+{
+background-color: black;
+}
+.link a
+{
+color: white;
+text-decoration: none;
+display: inline-block;
+padding: 1vh 2vh;
+}
+.link a.hover
+{
+    background-color: white;
+    color: white;
+}
+.urun
+{
+    display: flex;
+    border: 1px solid lightgray;
+    margin-bottom: 2vh;
+}
+.urun .yazı{  padding-left: 4vh;}
+.urun .yazı h3{color: red;}
+
+.footer
+{
+    background-color: black;
+    color: #aaa;;
+    padding: 4vh 0;
+    text-align: center;
+}

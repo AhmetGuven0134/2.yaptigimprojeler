@@ -1,0 +1,18 @@
+body{background-color: blue;}
+a{text-decoration: none;
+color: aqua;
+font-size: 3vh;
+border: 1px solid red;
+width: 12vw;
+height: 5vh;
+display: inline;
+text-align: center;
+
+}
+.kapsa{display: flex;flex-wrap: wrap;}
+
+a:hover{background-color: chocolate;}
+.k1{width: 25vw; height: fit-content; border: 10px dotted black; }
+
+.k1:hover{background-color: black}
+.k1 img{width: 20vw; height: 9vh;}

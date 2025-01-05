@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    background-image: url(StarsPattern.949f5d6a.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo-siyah {
+    background-color: #000;
+    margin-left: -250px;
+    margin-right: -250px;
+    height: 130px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 1, .9);
+}
+.logo-siyah div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.logo{
+    text-align: center;
+    margin-top: 50px;
+}
+.logo-bar{
+    width: 100%;
+    height: 45px;
+    padding: 15px;
+    position: relative;
+    font-size: 1rem;
+    line-height: 16px;
+    color: #fff;
+    background-color: #000;
+}
+
+.oturum-ac{
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: .32px;
+    margin-top: 24px;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+.form-bolomu{background-color:whitesmoke;
+    width: 350px;
+    height: 350px ;
+    display:inline;
+    
+}
+.kapsa{
+    background-color: whitesmoke;
+    width: 350px;
+    height: 350px ;
+    margin-left: 606px;
+}
+.button-devam{
+    width: 170px;
+    background-color: #373b54 ;
+    color: white;
+}
+.button-devam a{
+    text-decoration: none;
+    color: aqua;
+}

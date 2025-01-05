@@ -1,0 +1,17 @@
+body{background-color: #00ffff;
+background-image: url(besiktas.jpg);
+background-repeat:repeat-y;
+/*repeat-y dikey tekrarlama*/
+/*repeat-x yatay tekrarlama*/
+background-size: cover;
+opacity:0.1 ;
+
+/*position: center center ortya tekrarlama*/
+   
+
+
+
+
+
+
+}

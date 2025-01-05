@@ -1,0 +1,8 @@
+#kapsayıcı{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: auto 40vw 20vw ;
+    gap: 1vw;
+    grid-template-rows: 10vh 20vh 35vh;
+}
+#kapsayıcı div{background-color: bisque;}

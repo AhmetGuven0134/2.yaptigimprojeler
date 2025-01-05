@@ -1,0 +1,91 @@
+body{
+    background-image: url(dspor/banner.jpg);
+    background-repeat: no-repeat;
+
+}
+nav{display: flex;
+    border-bottom: 2px solid orange;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex: 3;
+}
+ul.sm{
+    list-style: none;
+    padding-bottom: 7px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ul.sm li{
+    height: 60px;
+    color: white;
+    padding-right: 20px;
+    display: block;
+    border-radius: 100%;
+    border: 1px solid black;
+    width: 60px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+.logo{
+    flex: 1;
+}
+ul.sm li a{
+    text-align: center;
+    text-decoration: none;
+}
+#hos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+}
+#D{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px; color: black;
+}
+#D::first-letter{
+    color: orange;
+}
+#lorem{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 20px;
+}
+#devam{
+    color: black;
+    width: 150px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgba(10,10,10,0.4);
+}
+#devam:hover{
+    background-color: aquamarine;
+}
+.link{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5%;
+    width: 100%;
+}
+.ulcon{
+    list-style-type: none;
+    display: flex;
+}
+.ulcon li{
+    width: 15%;
+    line-height: 80px;
+    font-size: 30px;
+}
+.ulcon li:hover{
+    box-shadow: 0px 10px rgba(0, 0, 0, 0.483);
+}
+.siyah{
+    background-color: black;
+    color: white;
+}
+.turuncu{
+    background-color: rgb(255, 136, 0);
+    color: black;
+}

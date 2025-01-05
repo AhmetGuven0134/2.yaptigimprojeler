@@ -1,0 +1,33 @@
+#saha{
+ width: 1000px;
+ height: 380px;
+ background-image: url(saha.jpg);
+}
+#baslık{
+    font-size: 30px;
+    text-align: center;
+    color: yellow;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    background-color: rgba(0,0,0,0,5);
+}
+.futbolcu{
+    background-color: rgba(0,0,0,0,5);
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    position: absolute;
+     width: 150px;
+     left: 100px;
+}
+#Ronaldo{
+    top: 160px;
+}
+#Messi{
+    top: 160px;
+}
+.futbolcu::before{
+    content: url(forma.png);
+    padding-right: 5px;
+}

@@ -1,0 +1,37 @@
+main{
+background-color: lightblue;
+width: 80%;
+padding: 20px;
+margin: 0 auto;
+}
+.Kampanya{
+    margin-bottom: 20px;
+    background-color: yellow;
+    position: relative ;
+
+}
+.Kampanya-resmi{
+    width: 100%;
+    display: block;
+}
+.Kampanya-sloganı{
+    background-color: rgba(200, 200,200, 0.5);
+    border: 1px solid rgba(250,0,0,0.4);
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+
+}
+.İndirim{
+    background-image: url(patlangac.pngde);
+    width: 50px; height: 50px;
+    background-size: cover;
+    color: white; position: absolute;
+    top: 0; right: 0;
+    box-sizing: border-box;
+    font-weight: bold; text-align: center;
+    line-height: 50px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <main>
+        <h1>Ürün sidfdgf</h1>
+        <article class="tanitim">
+          1.Ürün adet <input type="text " id="adet1">
+          1.Ürün fiyat <input type="text " id="fiyat1">
+          <br>
+          2.Ürün adet <input type="text " id="adet2">
+          2.Ürün fiyat <input type="text " id="fiyat2">
+          <br>
+          kdv %20 : <span id="kdv">..</span>TL
+          tutar : <span id="tutar">..</span>TL
+          <input type="button" onclick="hesapla()" value="Hesapla">
+        </article>
+    </main>
+</body>
+<script>
+    function hesapla(){
+let adt1,adt2,fyt1,fyt2,snc;
+adt1=Number(document.getElementById("adet1").value);
+fyt1=Number(document.getElementById("fiyat1").value);
+adt2=Number(document.getElementById("adet2").value);
+fyt2=Number(document.getElementById("fiyat2").value);
+snc=adt1*fyt1+adt2*fyt2;
+document.getElementById("tutar").innerHTML=snc;
+document.getElementById("kdv").innerHTML=snc/1.2*0.2;
+
+    }
+function resmiGoster1(){
+     document.getElementById("afis").style.backgroundImage='Url(medya/menuler/menu-02.jpg)';
+
+
+}
+function resmiGoster2(){
+     document.getElementById("afis").style.backgroundImage='Url(medya/menuler/menu-01.jpg)';
+
+
+}
+function resmiGoster3(){
+     document.getElementById("afis").style.backgroundImage='Url(medya/menuler/menu-03.jpg)';
+
+
+}
+</script>
+</html>

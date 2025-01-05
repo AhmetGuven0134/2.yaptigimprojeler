@@ -1,0 +1,4 @@
+body{background-color:antiquewhite; }
+ #galeri{ position: relative; width:300px; height: 200px; margin-bottom:10px; display:inline-flex; justify-items: center; }
+ img{ width:300px; height: 200px; position: absolute; left:0px; right: 0px; }
+ 

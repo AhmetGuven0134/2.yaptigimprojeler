@@ -1,0 +1,8 @@
+body{
+background:  url(besiktas.jpg) left top 
+no-repeat,url(beyoglu.jpg) right bottom no-repeat,;
+ background-image: linear-gradient(red,navy);
+background-image: linear-gradient(to right,red,navy,red,green,orange,pink,blue);
+
+
+}
